@@ -30,19 +30,6 @@ document.getElementById('about-link').addEventListener('click', function (e) {
 });
 
 
-
-
-// Initialize Lucide icons
-document.addEventListener('DOMContentLoaded', function() {
-    // Initialize any icons if needed
-    try {
-        if (typeof lucide !== 'undefined') {
-            lucide.createIcons();
-        }
-    } catch (e) {
-        console.log('Using Font Awesome fallback icons');
-    }
-
 // Blog posts data
 tailwind.config = {
     theme: {
