@@ -1,19 +1,3 @@
-tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        'yogire-orange': '#FF7F27',
-                        'yogire-beige': '#F5F0E5',
-                        'yogire-brown': '#8B4513',
-                        'yogire-green': '#4A6741',
-                    },
-                    fontFamily: {
-                        'poppins': ['Playfair Display', 'serif'],
-                    }
-                }
-            }
-        }
-
 const menuToggle = document.getElementById('menu-toggle');
     const mobileMenu = document.getElementById('mobile-menu');
 
@@ -45,4 +29,19 @@ document.getElementById('about-link').addEventListener('click', function (e) {
     document.getElementById('mukulsection').scrollIntoView({ behavior: 'smooth' });
 });
 
+tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'yogire-orange': '#FF7F27',
+                        'yogire-beige': '#F5F0E5',
+                        'yogire-brown': '#8B4513',
+                        'yogire-green': '#4A6741',
+                    },
+                    fontFamily: {
+                        'poppins': ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
 
